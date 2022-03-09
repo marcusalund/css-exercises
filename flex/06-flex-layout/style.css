@@ -42,11 +42,4 @@ a {
   display: flex;
   list-style-type: none;
   gap: 20px;
-  
-
-}
-
-.right-links{
-  display: flex;
-  list-style-type: none;
 }
