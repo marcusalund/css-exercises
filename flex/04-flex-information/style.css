@@ -16,7 +16,8 @@ img {
 
 .container {
   display: flex;
-  justify-content: space-around;
+  justify-content: center;
+  gap: 52px;
 }
 
 .info {
@@ -26,7 +27,7 @@ img {
 }
 
 .text {
-  width: 200px;
+  max-width: 200px;
   
 }
 
