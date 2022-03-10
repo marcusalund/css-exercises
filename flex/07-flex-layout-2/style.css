@@ -6,6 +6,15 @@ body {
   flex-direction: column;
 }
 
+a {
+  color: white;
+  text-decoration: none;
+}
+
+ul {
+  list-style: none;
+}
+
 .header {
   height: 72px;
   background: darkmagenta;
@@ -15,6 +24,12 @@ body {
   display: flex;
   align-items: center;
   padding-left: 16px;
+}
+
+.body {
+  display: flex;
+  flex-direction: row;
+  flex: auto;
 }
 
 .footer {
@@ -28,8 +43,10 @@ body {
 }
 
 .sidebar {
-  width: 300px;
+  min-width: 300px;
   background: royalblue;
+  font-size: 24px;
+  padding: 16px;
 }
 
 .card {
